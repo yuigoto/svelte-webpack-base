@@ -1,0 +1,15 @@
+.idea/
+.vs/
+.vscode/
+.DS_Store/
+
+node_modules/
+
+dist/
+review/
+scratch/
+
+.env
+package-lock.json
+yarn.lock
+yarn-error.log
