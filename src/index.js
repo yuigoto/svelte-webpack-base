@@ -1,5 +1,4 @@
 import Prism from "prismjs";
-console.log(window.Prism, Prism);
 import Main from "views/Main.svelte";
 
 import "styles/main.scss";

@@ -1,22 +1,17 @@
 {
   "name": "svelte-webpack-base",
-  "version": "0.0.1",
-  "description": "Like my React Webpack base, but for Svelte.",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Boilerplate para projetos usando Svelte.",
+  "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack serve --hot --inline",
+    "start": "webpack serve --hot --inline --mode=development",
     "build": "webpack build --mode=production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yuigoto/svelte-webpack-base.git"
   },
-  "keywords": [
-    "javascript",
-    "boilerplate",
-    "webpack",
-    "svelte"
-  ],
+  "keywords": [],
   "author": "Fabio Y. Goto <lab@yuiti.dev>",
   "license": "MIT",
   "bugs": {
@@ -28,34 +23,31 @@
     "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@babel/plugin-transform-runtime": "^7.14.5",
     "@babel/preset-env": "^7.14.7",
-    "autoprefixer": "^10.2.6",
+    "autoprefixer": "^10.3.1",
     "babel-loader": "^8.2.2",
     "babel-plugin-dynamic-import-node": "^2.3.3",
-    "babel-polyfill": "^6.26.0",
     "copy-webpack-plugin": "^9.0.1",
-    "css-loader": "^5.2.6",
+    "css-loader": "^6.1.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
-    "mini-css-extract-plugin": "^2.0.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.3.5",
     "postcss-import": "^14.0.2",
     "postcss-load-config": "^3.1.0",
-    "sass": "^1.35.1",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.35.2",
     "sass-loader": "^12.1.0",
-    "style-loader": "^3.0.0",
+    "style-loader": "^3.1.0",
     "svelte-loader": "^3.1.2",
-    "svelte-preprocess": "^4.7.3",
+    "svelte-preprocess": "^4.7.4",
     "svelte-preprocess-markdown": "^2.7.3",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.41.1",
+    "webpack": "^5.45.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^5.0.2",
-    "highlight.js": "^11.0.1",
-    "postcss": "^8.3.5",
-    "postcss-loader": "^6.1.1",
     "prismjs": "^1.24.1",
     "svelte": "^3.38.3"
   }
